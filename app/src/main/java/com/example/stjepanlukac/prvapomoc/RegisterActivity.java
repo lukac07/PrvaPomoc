@@ -61,8 +61,6 @@ public class RegisterActivity extends AppCompatActivity {
                             } catch (JSONException e) {
                                 e.printStackTrace();
                             }
-
-
                     }
                 };
 
@@ -71,6 +69,5 @@ public class RegisterActivity extends AppCompatActivity {
                 queue.add(registerRequest);
             }
         });
-
     }
 }

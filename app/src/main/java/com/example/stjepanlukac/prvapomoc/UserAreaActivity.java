@@ -1,10 +1,12 @@
 package com.example.stjepanlukac.prvapomoc;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.EditText;
-import android.widget.TextView;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.RelativeLayout;
 
 public class UserAreaActivity extends AppCompatActivity {
 
@@ -12,22 +14,31 @@ public class UserAreaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_area);
+    }
 
-        //reference na polja u activity_user_area
-        final EditText etUsername = (EditText) findViewById(R.id.etUsername);
-        final EditText etAge = (EditText) findViewById(R.id.etAge);
-        final TextView welcomeMessage = (TextView) findViewById(R.id.tvWelcomeMsg);
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
 
-        //vraćanje podataka koje smo poslali iz LoginActivitija kada se logiramo
-        Intent intent = getIntent();
-        String name = intent.getStringExtra("name");
-        String username = intent.getStringExtra("username");
-        int age = intent.getIntExtra("age", -1);    // -1 ide zbog godina da bude defaultno
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
 
-        //postavljanje poruke
-        String message = name + " welcome to your user area";
-        welcomeMessage.setText(message);
-        etUsername.setText(username);
-        etAge.setText(age + "");
+        //meni koji dovodi do registriranja/logiranja
+        switch (item.getItemId()){
+            case R.id.menu_Log_Reg:
+                if(item.isChecked())
+                    item.setChecked(false);
+                else
+                    item.setChecked(true);
+                Intent intent = new Intent(UserAreaActivity.this, LoginActivity.class);
+                UserAreaActivity.this.startActivity(intent);
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }
+

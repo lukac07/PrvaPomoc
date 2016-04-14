@@ -70,26 +70,22 @@ public class LoginActivity extends AppCompatActivity {
 
                                 LoginActivity.this.startActivity(intent);
 
-
                             } else {
                                 AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
                                 builder.setMessage("Login Failed")
                                         .setNegativeButton("Retry", null)
                                         .create()
                                         .show();
-
                             }
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
-
                     }
                 };
 
                 LoginRequest loginRequest = new LoginRequest(username, password, responseListener);
                 RequestQueue queue = Volley.newRequestQueue(LoginActivity.this);
                 queue.add(loginRequest);
-
             }
         });
     }

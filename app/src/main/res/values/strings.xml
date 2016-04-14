@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PrvaPomoc</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="Log_Reg">Login/Register</string>
+
 </resources>
