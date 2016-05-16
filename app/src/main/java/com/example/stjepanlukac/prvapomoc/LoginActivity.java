@@ -58,15 +58,24 @@ public class LoginActivity extends AppCompatActivity {
                             //ako je login uspješan, uzmi korisnikove detalje i pošalji u UserAreaActivity
                             if (success){
 
+                              // long user_id = jsonResponse.getLong("userID"); //<----------
                                 String name = jsonResponse.getString("name");
+                                String username = jsonResponse.getString("username");
                                 int age = jsonResponse.getInt("age");
+                                String password = jsonResponse.getString("password");
+                                int id = jsonResponse.getInt("user_id");
 
-                                Intent intent = new Intent(LoginActivity.this, UserAreaActivity.class);
+
+
+                                Intent intent = new Intent(LoginActivity.this, Test.class);
 
                                 //sa putExtra ćemo poslati podatke u UserAreaActivity
+                               // intent.putExtra("user_id", user_id); //<----------
                                 intent.putExtra("name", name);
                                 intent.putExtra("username", username);
                                 intent.putExtra("age", age);
+                                intent.putExtra("password",password );
+                                intent.putExtra("user_id", id);
 
                                 LoginActivity.this.startActivity(intent);
 

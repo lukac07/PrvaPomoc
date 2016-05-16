@@ -5,18 +5,18 @@
     tools:context="com.example.stjepanlukac.prvapomoc.PrvaPomoc">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <!-- ListView u kojeg ćemo staviti popis ozljeda -->
+
+    <ListView
+        android:paddingTop="100dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Home Fragment"
-        />
+        android:id="@+id/ozljedeListView"
+        >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="UPUTE PRVE POMOCI"
-        android:id="@+id/textView2"
-        android:layout_gravity="center" />
+
+    </ListView>
+
 
 </FrameLayout>

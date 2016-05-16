@@ -5,7 +5,315 @@
 
     <string name="Log_Reg">Login/Register</string>
 
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Stringovi za "RANE" -->
+    <string name="metode_zaustavljanja_krvarenja">
+        Metode zaustavljanja krvarenja:\n
+        - Pokrijte ranu gazom i zavojem. \n
+        - Strana tijela zabodena duboko u tkivo nemojte sami vaditi, već ih učvrstite u zatečenom položaju. \n
+        - Kod velikih rana na ruci ili nozi potrebna je imobilizacija.\n
+        - NE ispirite ranu nikakvim tekućinama. \n
+        - NE stavljajte prašak, mast ili kremu na ranu. \n</string>
+
+    <string name="ozljeda_glave">
+        - Unesrećenog u nesvjesti okrenite na bok nakon što ste mu imobilizirali vratnu kralježnicu. \n
+        - Ne dirajte ranu, ne šišajte kosu! Ranu pokrijte sterlinom gazom i učvrstite rupcem ili zavojem. \n
+        - Prijevoz u zdrastvenu ustanovu treba ostvariti u bočnom položaju. \n</string>
+
+    <string name="ozljeda_nosa">
+        - Ranu na nosu treba zaviti zavojem koji zovemo "praćka" nosa. \n
+        - Osobu postavite u polusjedeći položaj s glavom nagnutom prema naprijed oslonjenom na ruke kojima se osoba naslanja na svoje natkoljenice. \n
+        - Čvrsto stisnite meki dio nosa, a stisak popustite nakon 10-15 minuta kako bi provjerili je li krvarenje prestalo. \n
+        - Ako krvarenje traje više od 30 minuta, obratite se liječniku. \n</string>
+
+    <!-- Stringovi za "KRVARENJE" -->
+     <string name="pritisak_na_ranu">
+        - Komadom gaze ili tkanine čvrsto pritisnite mjesto krvarenja. \n
+        - Ako je rana na ruci ili nozi, podignite ozlijeđeni ud i zadržite ga u povišenom položaju. \n
+        - Ako je u ranu zabodeno strano tijelo (nož, drvo, strijela), ne smijete ga vaditi. Krvarenje se u tom slučaju zaustavlja pritiskom na rubove rane. \n</string>
+
+    <string name="zaustavljanje_kompresivnim_zavojem">
+        - Na ranu stavite sterilnu gazu. \n
+        - Na gazu stavite zamotuljak zavoja ili tkanine točno iznad mjesta krvarenja (može posluŽiti komadić drveta ili kamen). \n
+        - Kružnim zavojem čvrsto stegnite zamotuljak te čvor napravite iznad zamotuljka. \n
+        - Ozlijeđenu ruku ili nogu treba držati u povišenom položaju.
+        - Nakon postavljenog zavoja provjeriti perifernu cirkulaciju (boja prstiju, puls). \n</string>
+
+    <string name="zaustavljanje_podvezivanjem_uda">
+        - Radikalan zahvat koji dovodi do prekida cirkulacije ispod mjesta podvezivanja što može dovesti do gubitka uda. \n
+        - Primjenjuje se samo u slučajevima amputacijske ozljede te kada krvarenje nije moguće zaustaviti niti jednim drugim postupkom. \n
+        - Za podvezivanje se koriste namjenski proizvedene široke gumene vrpce te može poslužiti i trokutasta marama. \n
+        - Podvezica se stavlja na nadlakticu ili natkoljenicu. \n
+        - Zateže se pomoću štapića dok krvarenje ne prestane. \n</string>
+
+    <!-- Stringovi za "UNUTARNJE KRVARENJE" -->
+    <string name="znakovi_iskrvarenja">
+        - Gubitak veće količine krvi dovodi do opće slabost, vrtoglavice, šuma u ušima i iskrenja pred očima(šok). \n
+        - Osobu treba staviti u ležeći položaj, po mogućnosti s uzdignutim nogama i rukama (položaj autotransfuzije) i pokriti. \n</string>
+
+    <string name="postupak_iskrvarenja">
+        - Unutarnje krvarenje ne može se zaustaviti mjerama prve pomoći. \n
+        - Nužan hitan prijevoz u bolnicu, a do toga smjestimo osobu u ravan ležeći položaj. \n
+        - Koštane prijelome treba imobilizirati prije prijevoza. \n
+        - Osoba ne smije ni jesti ni piti, osim u slučaju produljenog transporta i ako nema ozljede trbuha niti krvarenja iz probavnog sustava. \n</string>
+
+    <!-- Stringovi za "SRČANI INFARKT" -->
+    <string name="sumnja_na_infarkt">
+        - Nema sigurnih znakova koji bi jednoznačno ukazivali na srčani udar. \n
+        - Najčešći simptomi koji pobuđuju sumnju na srčani infarkt su: \n
+        \n
+        * bol u prsištu - "pritisak" ili "stezanje". Može se širiti u lijevo (rjeđe) desno rame i ruku, vrat i čeljust. Moguća bol i u gornjem dijelu trbuha \n
+        * blijeda i znojem orošena koža \n
+        * mučnina i povračanje \n
+        \n
+        - Važno je znati da ne moraju svi simptomi biti pristuni jer je moguć infarkt i bez bolova. \n</string>
+
+    <string name="postupak_srcani_infarkt">
+        1. Bolesnik mora mirovati, najbolje u polusjedećem položaju. Ne dozvolite mu hodanje niti ikakvo naprezanje. \n
+        2. Tabletu Aspirina ili Andola od 300 mg usitnite i dajte bolesniku. Osobe koje boluju od angine pektoris trebaju uzeti i svoju uobičajenu terapiju - Nitroglicerin ili Tinidil pod jezik. \n
+        3. Pozovite hitnu medicinsku pomoć ili prevezite bolesnika što prije u bolnincu. \n
+        4. Ako bolesnik izgubi svijest, provjerite disanje i krvotok i po potrebi započnite mjere oživljavanja. \n</string>
+
+    <!-- Stringovi za "MOŽDANI UDAR" -->
+    <string name="znakovi_mozdanog_udara">
+        - Slabost ili oduzetost lijeve ili desne polovice tijela, može varirati od slabosti do potpune oduzetosti \n
+        - Otežan ili onemogućen govor - bolesnik otežano izgovara riječi ili uopće ne može govoriti \n
+        - Spuštenost jednog usnog kuta zbog čega usta izgledaju iskrivljeno \n
+        - Otežano ili onemogućeno gutanje - hrana curi iz usta ili kroz nos \n
+        - Nejednakost veličine zjenica koja do tada nije postojala \n
+        - Jaka glavobolja \n
+        - Povraćanje \n
+        - Nekontrolirano mokrenje i stolica \n
+        - Gubitak svijesti \n</string>
+
+    <string name="postupak_mozdani_udar">
+        - Bolesnik treba ležati s lagano uzdignutom glavom i ramenima. Ako počne povraćati, okrenita ga na bok da omogućite istjecanje povraćenog sadržaja iz usta. \n
+        - Pozovite hitnu medicinsku pomoć. \n
+        - NE dajte bolesniku hranu ili piće. \n
+        - Ako je bolesnik bez svijesti, okrenite ga u bočni položaj, provjeravajte disanje i ako zatreba, započnite mjere oživljavanja. \n</string>
+
+    <!-- Stringovi za "MOŽDANI UDAR" -->
+    <string name="znakovi_soka">
+        - Koža je blijeda i hladna, orošena ljepljivim znojem. \n
+        - Usne i prsti mogu biti modri. \n
+        - Osjećaj hladnoće. \n
+        - Disanje ubrzano i površno. \n
+        - Puls je ubrzan i teško opipljiv. \n
+        - Žeđ, mučnina i ponekad povraćanje. \n
+        - Nemir i uzbuđenost koji s pogoršanjem šoka prelaze u apatiju i nezainteresiranost pa bolesnik više ne zapomaže, pogled mu je odsutan. \n</string>
+
+    <string name="postupak_sok">
+        1. Zaustavite krvarenje, previjte rane, imobilizirajte prijelome. \n
+        2. Ozljeđenik ili bolesnik u šoku treba ležati s lagano uzdignutim nogama. Pokrijte ga. \n
+        3. NE ostavljajte ga samog, nastojte ga ohrabriti i pružiti mu osjećaj sigurnosti. \n
+        4. NE dajte mu hranu ni piće. Samo ako je prijevoz do bolnice dugotrajan i ako ste sigurni da nema ozljede trbuha niti krvarenja iz probavnih organam, možete mu povremeno davati manje količini vode ili čaja. \n
+        5. NE koristite izvore topline poput termofora ili toplog crijepa za zagrijavanje osobe u šoku. \n</string>
+
+    <!-- Stringovi za "EPILEPTIČNI NAPAD" -->
+    <string name="simptomi_epilepticni_napad">
+        - Jake kontrakcije mišića većeg dijela tijela \n
+        - Gubitak svijesti \n
+        - Privremeni prestanak disanja i "uzdisanje" \n
+        - Inkontinencija urina \n
+        - Ugriz za jezik ili obraz \n</string>
+
+    <string name="postupak_epilepticni_napad">
+        - Olabavite odjeću oko bolesnikovog vrata. \n
+        - Ne pokušavajte zaustaviti pokrete bolesnika ili ga pridržavati tijekom napada, to mu može nanijeti ozljede. \n
+        - Ne stavljajte mu nikakve predmete u usta, to ga isto tako može ozlijediti. \n
+        - Nakon napada postavite osobu u bočni položaj kako biste osigurali prohodnost dišnog puta i onemogućili udisanje bilo kakvih tjelesnih tekućina. \n
+        - Hitnu pomoć je potrebno zvati, ako: \n
+        \n\t
+        * Napad traje dulje od 5 minuta \n\t
+        * Drugi napad počne ubrzo nakon prvog \n\t
+        * Osoba nakon napada ne dolazi k svijesti \n\t
+        * Postoji sumnja na dodatni zdrastveni poremećaj \n\t
+        * Osoba boluje od još neke bolesti npr. neke srčane bolesti ili dijabetesa \n\t</string>
+
+    <!-- Stringovi za "GUŠENJE" -->
+    <string name="znakovi_gusenja">
+        - Osoba se uglavnom s obje ruke drži za prednju stranu vrata(univerzalni znak) \n
+        - Nemogućnost govora \n
+        - Nemogućnost namjerno izazvanog kašlja \n
+        - Koža, usne i nokti postaju plavkasti ili tamniji \n
+        - Gubitak svijesti \n</string>
+
+    <string name="postupak_gusenje">
+        - Unesrećenog 5 puta udarimo korijenom dlana između lopatica, ako to ne pomogne, radimo Heimlichov hvat: \t\n
+        1. Unesrećenom pri svijesti priđemo s leđa. \t\n
+        2. Stisnutu šaku jedne ruke stavimo na trbuh unesrećenog u sredini udaljenosti između pupka i vrha prsne kosti. \t\n
+        3. Drugom rukom prihvatimo stisnutu šaku. \t\n
+        4. Učinimo snažan i brz pritisak na trbuh prema sebi i gore. \t\n
+        - Naizmjenično izvodimo prethodno navedene postupke do izbacivanja stranog tijela ili do onesvješćivanja unesrećenog. \n
+        - Ako izgubi svijest, započnite s postupokom reanimacije. \n
+        - Prvu pomoć pružite prije pozivanjaj hitne medicinske pomoći. \n</string>
+
+    <!-- Stringovi za "OPEKLINE" -->
+    <string name="postupak_opekline">
+        1. Skinuti odjeću natopljenu vrućom tekućinom ili kemikalijom. Komadi tkanine koji su zalijepljeni za kožu ne smiju se nasilno odvajati, već ih treba obrezati škarama. \n
+        2. Brzo hlađenje opečene površine vodom najvažnija je mjera prve pomoći. \n
+        3. S opečene ruke odmah treba skinuti prstenje, narukvice i sat, prije nego koža natekne. \n
+        4. Opekline se pokrivaju gazom i zavojem vrlo labavo, bez zatezanja. \n
+        5. Ako je opečena velika površina ruke ili noge, imobilizirajte ozlijeđeni ud. \n
+        6. Ako je prijevoz do bolnicie dugutrajan, dajte ozljeđeniku da pije tekućinu. \n
+        7. NE stavljajte na opekline nikakve masti, ulje niti prašak. \n
+        8. NE bušite mjehure na opeklinama. \n</string>
+
+    <!-- Stringovi za "STRUJNI UDAR" -->
+    <string name="postupak_strujni_udar">
+        1. Ako je unesrećeni još uvijek u strujnom krugu, treba ga što prije osloboditi. \n
+        2. Strujni krug se prekida izvačenjem utikača iz utičnice, vađenjem osigurača ili odvajanje električnog vodića od tijela pomoću predmeta od izolirajućeg materijala (plastika, guma). \n
+        3. Eventualni požar na licu nezgode se ne smije gasiti vodom. \n
+        4. Ako je unesrećeni bez svijesti, provjerite disanje i krvotok i po potrebi započnite mjere oživaljvanja. \n
+        </string>
+
+    <!-- Stringovi za "UDAR GROMA" -->
+    <string name="simptomi_udar_groma">
+        - Različiti poremećaji srčanog ritma \n
+        - Srčani zastoj \n
+        - Zastoj disanja uzrokovan paralizom mišića za disanje i/ili poremećajem centra za disanje \n
+        - Gubitak svijesti, privremena paraliza, koma \n
+        - Opekline različita oblika \n
+        - Blast ozljede prsnog koša i trbuha, prijelomi kosti, ozljede oka i uha \n
+        - Kasnije se mogu javiti različiti psihički i neurološki poremećaji \n</string>
+
+    <string name="postupak_udar_groma">
+        1. Odmah treba pozvati hitnu medicinsku pomoć na broj 194. \n
+        2. Osnovno pravilo "ne povećavati broj žrtava". Ako je oluja u tijeku, a žrtva se nalazi na mjestu viskog rizika od udara groma, spasilac treba procijeniti je li moguće žrtvu premjestiti na sigurnije mjesto. \n
+        3. Žrtvi udara groba može se odmah pristupiti i dodirnuti je bez opasnosti. \n
+        4. Treba procijeniti stanje svijesti i uporno i dugotrajno pristupiti mjerama oživljavanja. \n
+        5. Onesvješćenu osobu treba postaviti u bočni položaj. \n
+        6. Treba zbrinuti ostale ozljede (prijelome, rane i opekline). \n
+        7. Svaku žrtvu udara groma treba prevesti u bolnicu uz stalan nadzor životnih funkcija. \n</string>
+
+    <!-- Stringovi za "UDAR GROMA" -->
+    <string name="postupak_toplinski_udar">
+        1. Bolesnika prenesite u hladnu prostoriju ili hladovinu. Skinite mu odjeću. Ako nije pri svijesti, okrenite ga u bočni položaj. \n
+        2. Polijevajte ga hladnom(ali ne ledenom) vodom uz istovremeno stvaranje umjetnog vjetra ventilatorom, lepezom ili novinama. \n
+        3. NE stavljajte mu led na kožu. \n
+        4. Hlađenje treba trajati dok se tjelesna temperatura ne spusti ispod 38 stupnjeva. \n</string>
+
+    <string name="znakovi_toplinski_udar">
+        - Osjećaj vrućine, glavobolja, vrtoglavica, smušenost, nemir \n
+        - Koža je suha i crvena, kod mlađe osobe može biti i znojna \n
+        - Tjelesna temperatura izmjerena u crijevu iznosti 42 stupnja ili više \n</string>
+
+    <!-- Stringovi za "UDAR GROMA" -->
+    <string name="postupak_vrucica">
+        - Bolesnik s vrućicom mora morovati. Ne smije ga se utopljavati. Pokrivač mora biti lagan, a prostorija prozračena. \n
+        - Bolesnik mora uzimati puno tekućine(čaj, sok). \n
+        - Ako temperatura preže 39 stupnja, snižavajte je oblozima. Obloge stavite djeci na ruke i noge, a odraslima na čelo i prsa. \n
+        - Ako temperatura pređe 40 stupnja, čitavo tijelo umotajte u namočenu i iscijeđenu plahtu. \n
+        </string>
+
+    <string name="mjerenje_temperature">
+        Mjerenje temperature pod pazuhom: \n\t
+        *Vršak toplomjera treba staviti duboko u pazušnu jamu, a nadlatkicu priljubiti uz tijelo. \n\t
+        *Mjerenje traje 10 minuta. \n\n
+        Mjerenje temperature pod jezikom: \n\t
+        *Vršak toplomjera mora biti pod jezikom, a usta zatvorena \n\t
+        *Mjerenje traje 5-10 minuta te je na tom mjestu temperatura nešto više nego pod pazuhom \n\n
+        Mjerenje temperature rektalno(u crijevu): \n\t
+        *Toplomjer treba uvesti oko 5 cm u crijevo. \n\t
+        *Mjerenje traje 5 minuta. \n\t
+        *Najpouzdanoja metoda. \n
+        </string>
+
+    <!-- Stringovi za "SMRZOTINE" -->
+    <string name="postupak_smrzotine">
+        1. NE trljajte promrzle dijelove tijela! \n
+        2. NE bušite mjehure. \n
+        3. NE stavljajte prašak, mast i sl. na smrzotinu! \n
+        4. NE navlačite rukavice ili čarape na smrznute okrajine! \n
+        5. NE zagrijavajte promrzle okrajine termoforom i sličnim izvorima topline! \n
+        6. NE dozvolite osobi sa smrznutim stopalom da hoda! \n</string>
+
+    <string name="prepoznavanje_smrzotine">
+        - U početku postoji osjećaj hladnoće u zahvaćenom udu koji prelazi u bol. \n
+        - Nagli prestanak osjećaja hladnoće i boli znak je početka smrzavanja. \n
+        - Koža je u početku modra, blijeda ili crvena. Kasnije nastaje oteklina, a ponekad i mjehuri. \n </string>
+
+    <!-- Stringovi za "POTHLAĐENOST" -->
+    <string name="postupak_pothladenost">
+        1. Ako je bolesnik pri svijesti, unesite ga u toplu prostoriju. Mokru odjeću zamijenite suhom. \n
+        2. Dajte mu topla zaslađena bezalkoholna pića. \n
+        3. Upotrijebiti termofor i slične izvore topline. Ne prislanjati ih direktno na tijelo, nego preko slojeva deke. \n
+        4. Ako bolesnik nije pri svijesti treba započeti s oživljavanjem. \n
+        5. Postupno ga treba početi zagrijavati (Hiblerov toplinski omotač). \n</string>
+
+    <string name="znakovi_pothladivanje">
+        - U početku osoba ima osjećaj hladnoće i drhti. \n
+        - Kanije se javljaju umor, tromost i velika želja za snom te se sve funkcije usporavaju. \n
+        - Disanje i rad srca se jako usporavaju. \n</string>
+
+    <!-- Stringovi za "PRIJELOMI" -->
+    <string name="postupak_prijelomi">
+        1. Deformirani ud izravnati uzdužnim istezanjem(povlačenje dva susjedna zgloba u suprotnim smjerovima). \n
+        2. Slomljenu kosti imobilizirati prije prenošenja ozljeđenika. \n
+        3. Kod otvorenih prijeloma treba prekriti ranu sterilnom gazom. Na gazu staviti jastučić od pamuka i sve zajedno učvrstiti zavojem. \n</string>
+
+    <string name="znakovi_prijeloma">
+        - Bol \n
+        - Onemogućenost pokretanja ozlijeđenog uda \n
+        - Oteklina na mjestu prijeloma(nije uvijek prisutna) \n
+        - Deformitet uda \n</string>
+
+    <!-- Stringovi za "OZLJEDE KRALJEŽNICE" -->
+    <string name="postupak_ozljede_kraljeznice">
+        1. Dok čekate dolazak hitne pomoći ostavite ozljeđenika na mjestu i u položaju u kojem ste za i zatekli. \n
+        2. Pri sumnji na ozljedu vratne kralježnice pažljivo mu poduprite glavu dlanovima da spriječite njeno pomicanje. \n
+        3. Recite mu da se ne miče i ne ostavljajte ga samog. \n
+        4. Ako je bez svijesti, onesviještenog postavite u bočni položaj. \n
+        5. Ozljeđenik se pomiče kao cjelovita jedinica, bez savijanja trupa i s fiksiranim vratom. \n</string>
+
+    <string name="znakovi_ozljede_mozdine">
+        - Slabost ili oduzetost udova \n
+        - Slabljenje ili gubitak osjeta \n
+        - Osjećaj trnaca ili vrućine u udovima \n</string>
+
+    <!-- Stringovi za "AMPUTACIJSKE OZLJEDE" -->
+    <string name="postupak_amputacijske_ozljede">
+        1. Zaustavite krvarenje na bataljku. Ozljeđenik mora biti pod stalnim nadzorom. \n
+        2. Zaštite ranu gazom i zavojem, imobilizirajte bataljak i postavite ga u povišen položaj. \n
+        3. Poduzmite mjere za ublažavanje šoka. \n
+        4. Ako odvojeni dio tijela nije uništen, treba ga staviti u čistu plastičnu vrećicu, a zatim tu vrećicu u drugu koja je ispunjena vodom i kockicama leda (0-4 stupnja). \n
+        5. Zapišite vrijeme nastanka ozljede. \n</string>
+
+    <!-- Stringovi za "BOČNNI POLOŽAJ" -->
+    <string name="korak1">
+        Ruke unesrećenog stavite u položaj kao na slici.</string>
+
+    <string name="korak2">
+        Koljeno na suprotnoj strani podignite tako da stopalo bude ispruženo na podlozi.</string>
+
+    <string name="korak3">
+        Okrenite unesrećenog povlačeći ga za rame i za bok ili natkoljenicu.</string>
+
+    <string name="korak4">
+        Gornju nogu povucite prema naprijed i gornju ruku stavite ispod obraza da podržava glavu u zabačenom položaju.</string>
+
+    <!-- Stringovi za "OTROVANJA" -->
+
+    <string name="postupak_otrovanja">
+        - Ako je osoba bez svijesti, provjerite disanje i krvotok i po potrebi započnite mjere oživljavanja. \n
+        - Onesviještenu osobu koja diše okrenite u bočni položaj. \n
+        - Ako je osoba pri svijesti, pokušajte izazvati povraćanje podraživanjem ždrijela prstom. \n
+        - NE smije se izazivati povraćanje kod osobe koja nije u punoj svijesti ili koja se opire. \n
+        - Ne smije se izazivati povraćanje pri otrovanju kiselinama, lužinama, solima, benzinom. \n
+        - Otrovana osoba treba popiti 2-3 žlice medicinskog ugljena(aktivni ugljen, carbo medicinalis) razrijeđene u čaši vode. \n</string>
+
+    <string name="znaci_otrovanja">
+        - Mučnina i bol u trbuhu \n
+        - Proljev i povraćanje \n
+        - Pri udisanju može doći do kašlja i osjećaja gušenja \n
+        - Neki otrovi izazivaju psihičke poremećaje, vrtoglavicu, glavobolju i grčeve pojedinih mišića \n</string>
+
+    <!-- Stringovi za "POSALJI LOKACIJU TAB" -->
+    <string name="resume">Resume Location Updates</string>
+    <string name="pause">Pause Location Updates</string>
+
 
 </resources>
