@@ -18,7 +18,6 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
 
         this.fragments.add(fragments);
         this.tabTitles.add(titles);
-
     }
 
     public ViewPagerAdapter(FragmentManager fm){

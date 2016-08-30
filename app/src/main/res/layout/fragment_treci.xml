@@ -5,17 +5,44 @@
     tools:context="com.example.stjepanlukac.prvapomoc.TreciFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="LALALALALALAL" />
 
-    <TextView
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="LUKINJOOO"
-        android:id="@+id/textView"
-        android:layout_gravity="center" />
+        android:orientation="horizontal"
+        android:paddingTop="100dp">
+
+        <TextView
+            android:id="@+id/txKoirisnik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Korisnik"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txGodine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txKoirisnik"
+            android:text="Godine"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/bPodaciKorisnika"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txGodine"
+            android:text="Detaljni podaci o korisniku" />
+
+        <Button
+            android:id="@+id/bUnesiPodatkeKorisnika"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bPodaciKorisnika"
+            android:text="Unesi podatke o korisniku" />
+    </RelativeLayout>
 
 </FrameLayout>
+
+
+

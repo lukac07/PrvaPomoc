@@ -1,7 +1,9 @@
 package com.example.stjepanlukac.prvapomoc;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,10 +20,14 @@ import org.json.JSONObject;
 
 public class LoginActivity extends AppCompatActivity {
 
+
+    public static final String PREFS = "examplePrefs";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
 
         //reference na polja u activity_login-u
         final EditText etUsername = (EditText) findViewById(R.id.etUsername);
@@ -58,7 +64,6 @@ public class LoginActivity extends AppCompatActivity {
                             //ako je login uspješan, uzmi korisnikove detalje i pošalji u UserAreaActivity
                             if (success){
 
-                              // long user_id = jsonResponse.getLong("userID"); //<----------
                                 String name = jsonResponse.getString("name");
                                 String username = jsonResponse.getString("username");
                                 int age = jsonResponse.getInt("age");
@@ -67,10 +72,17 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
-                                Intent intent = new Intent(LoginActivity.this, Test.class);
+                                Intent intent = new Intent(LoginActivity.this, UserAreaActivity.class);
 
-                                //sa putExtra ćemo poslati podatke u UserAreaActivity
-                               // intent.putExtra("user_id", user_id); //<----------
+                                //sa putExtra ćemo poslati podatke u Test activity
+
+                                SharedPreferences examplePrefs = getSharedPreferences(PREFS, 0);
+                                SharedPreferences.Editor editor = examplePrefs.edit();
+                                editor.putString("username", username);
+                                editor.putString("password",password);
+                                editor.putInt("age", age);
+                                editor.commit();
+
                                 intent.putExtra("name", name);
                                 intent.putExtra("username", username);
                                 intent.putExtra("age", age);

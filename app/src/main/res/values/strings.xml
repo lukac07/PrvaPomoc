@@ -3,7 +3,10 @@
 
     <string name="action_settings">Settings</string>
 
+    <!-- Stringovi za menu button -->
     <string name="Log_Reg">Login/Register</string>
+    <string name="menu_Logout">Logout</string>
+
 
 
     <!-- TODO: Remove or change this placeholder text -->

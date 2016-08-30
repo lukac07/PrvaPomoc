@@ -45,6 +45,7 @@ public class PrvaPomoc extends Fragment {
         "MOŽDANI UDAR", "ŠOK", "EPILEPTIČNI NAPAD", "GUŠENJE", "OPEKLINE", "STRUJNI UDAR", "UDAR GROMA", "TOPLINSKI UDAR",
         "VRUĆICA", "SMRZOTINE", "POTHLAĐENOST", "PRIJELOMI", "OZLJEDE KRALJEŽNICE", "AMPUTACIJSKE OZLJEDE", "BOČNI POLOŽAJ",
         "OTROVANJA"};
+
         ListAdapter ozljedeAdapter = new CustomAdapterOzljede(getContext(), popis_ozljeda, imgs);
 
         ListView ozljedeListView = (ListView) view.findViewById(R.id.ozljedeListView);

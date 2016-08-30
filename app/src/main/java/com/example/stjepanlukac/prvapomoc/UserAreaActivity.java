@@ -1,6 +1,7 @@
 package com.example.stjepanlukac.prvapomoc;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
@@ -19,6 +20,9 @@ public class UserAreaActivity extends AppCompatActivity {
     ViewPager viewPager;
     ViewPagerAdapter viewPagerAdapter;
 
+    public static final String PREFS = "examplePrefs";
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,14 +39,11 @@ public class UserAreaActivity extends AppCompatActivity {
         viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
 
         viewPagerAdapter.addFragments(new PrvaPomoc(), "Prva pomoc");
-        viewPagerAdapter.addFragments(new PosaljiLokaciju(), "Posalji lokaciju");
-        viewPagerAdapter.addFragments(new TreciFragment(), "Treci fragment");
+        viewPagerAdapter.addFragments(new PosaljiLokaciju(), "Dohvati lokaciju");
+        viewPagerAdapter.addFragments(new TreciFragment(), "Korisnički podaci");
 
         viewPager.setAdapter(viewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
-
-
-
     }
 
     @Override
@@ -63,6 +64,23 @@ public class UserAreaActivity extends AppCompatActivity {
                     item.setChecked(true);
                 Intent intent = new Intent(UserAreaActivity.this, LoginActivity.class);
                 UserAreaActivity.this.startActivity(intent);
+                return true;
+
+            case R.id.menu_Logout:
+                if(item.isChecked())
+                    item.setChecked(false);
+                else
+                    item.setChecked(true);
+                SharedPreferences examplePrefs = getSharedPreferences(PREFS, 0);
+                SharedPreferences.Editor editor = examplePrefs.edit();
+                editor.clear();
+                editor.commit();
+                boolean chkUser = true;
+                editor.putBoolean("chkUser", chkUser);
+                editor.commit();
+
+                Intent i = new Intent(UserAreaActivity.this, UserAreaActivity.class);
+                UserAreaActivity.this.startActivity(i);
                 return true;
 
             default:
